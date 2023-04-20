@@ -1,0 +1,24 @@
+#dv1 {
+    background-color: blueviolet;
+    border: solid 1px;
+    height: 350px;
+    width: 350px;
+    margin: 5px;
+    float: none;
+}
+#dv2 {
+    background-color: slategray;
+    border: solid 1px;
+    height: 350px;
+    width: 350px;
+    margin: 5px;
+    float: right;
+}
+#dv3 {
+    background-color: orangered;
+    border: solid 1px;
+    height: 350px;
+    width: 350px;
+    margin: 5px;
+    float: left;
+}

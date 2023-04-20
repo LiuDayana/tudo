@@ -1,0 +1,36 @@
+.container{
+    width: 700px;
+    height: 700px;
+    border: solid 1px blue;
+    display: grid;
+    grid-template-areas:
+    'header header header header' 
+    'main main main img1'
+    'img2 section section section'
+    'footer footer footer footer';
+}
+.item1{
+    grid-area: header;
+    background-color: chartreuse;
+}
+.item2{
+    grid-area: main;
+    background-color: blueviolet;
+}
+.item3{
+    grid-area: img1;
+    background-color: coral;
+}
+.item4{
+    grid-area: img2;
+    background-color: cyan;
+}
+.item5{
+    grid-area: section;
+    background-color: darkolivegreen;
+}
+.item6{
+    grid-area: footer;
+    background-color: deeppink;
+}
+

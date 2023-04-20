@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Aula Forms</title>
+</head>
+
+<body>
+    
+    <form action="#">
+        <label form="">Nome</label>
+        <input type="text" id="nome" required="required"/>
+        <label form="">sobrenome</label>
+        <input type="sobrenome"/><br /><br>
+        <input type="email" id="email" size="57"
+        placeholder="exemplo.de.email@ios.org.br"/>
+        <br/><br />
+        <!-- utilizando o elemento radio e checkbox -->
+        <p>Qual jogo voce mais jogou?</p>
+        <label form="op1">Sonic</label>
+        <input type="radio"nome=ljogos id="op1"/>
+        <br>
+        <label for="op2">Super Mario World</label>
+        <input type="radio"  name="ljogos1" id="op2"/> <br>
+        <label form="po3">GOD 3</label>
+        <input type="radio" name="ljogos" id="op3"/>
+        <p> Qual plataforma voce joga?</p>
+        <label form="po1">playstation</label>
+        <input type="checkbox"> <br>
+
+        <!-- lista de jogos elemento select -->
+        
+        <label for="jogos">Selecione um jogo da lista:</label>
+        <select name="jogos" id="jogos">
+            
+            <option value="slc"disabled selected>Selecione um jogo</option>
+            <option value="NFS-4">NFS-4</option>
+            <option value="Candy_Crush"> Candy Crush</option>
+            <option value="colheita_f">Colheita Feliz</option>
+            <option value="GTAV">GTA V</option>
+
+        </select>
+        <!-- Auto-complete tag input/datalist -->
+        <br> <hr>
+        <label form="dlist">Sua cidade</label>
+        <input autocomplete="on" list="cidade" id="dlist" name="dlist">
+        <datalist id="cidade">
+            <option value="São Paulo"></option>
+            <option value="Osasco"></option></option>
+            <option value="Guarulhos"></option>
+            <option value="Grajau"></option>
+
+        </datalist>
+        <br>
+
+        <hr>
+        <br>
+        0
+        <input type="range" id="valor_01" name="valor_01">100
+        <br>
+
+
+        </label>
+        <label for="sugestao">deixe uma sugestao aqui:</label><br>
+            <textarea name="sugestao" id="sugestao" cols="30" rows="10">sugestao</textarea>
+
+
+    </form>
+    
+</body>
+</html>

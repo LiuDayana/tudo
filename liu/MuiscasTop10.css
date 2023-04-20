@@ -1,0 +1,23 @@
+body {
+    background-color:darksalmon;
+}
+#luciano {
+    float: left; 
+    border-radius: 8px;
+    height: 200px;
+}
+#pilots {
+    float: left;
+    border-radius: 8px;
+    height: 200px;
+}
+#maneva {
+    float: left;
+    border-radius: 8px;
+    height: 200px;
+}
+#liu {
+    float: left;
+    border-radius: 8px;
+    height: 200px;
+}

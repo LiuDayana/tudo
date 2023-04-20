@@ -1,0 +1,12 @@
+.padrao {
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    background-color: purple;
+}
+.padrao2 {
+    display: none;
+    height: 200px;
+    width: 200px;
+    background-color: cadetblue
+}

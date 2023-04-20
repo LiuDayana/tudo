@@ -1,0 +1,33 @@
+.container{
+    width: 700px;
+    height: 700px;
+    border: solid 1px blue;
+    display: grid;
+    grid-template-areas: 
+    'header header header header'
+    'img main main main'
+    'footer footer footer footer'
+}
+/*.item {
+    border: solid 1px;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}*/
+.item1{
+   grid-area: header;
+   background-color: blue;
+}
+.item2{
+    grid-area: img;
+    background-color: blueviolet;
+}
+.item3{
+    grid-area: main;
+    background-color: brown;
+}
+.item4{
+    grid-area: footer;
+    background-color: aqua;
+}
+
